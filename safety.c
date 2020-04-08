@@ -73,7 +73,7 @@ int main() {
 			} 
 		} 
 
-		// If we could not find a next process in safe sequence.
+		// if we could not find a next process in safe sequence.
 		
 		if (flag == 0) 
 		{ 
