@@ -39,8 +39,8 @@ int main() {
 	}
 
 	// Repeat while all processes are not finished  
-	int loopc=0;
-	while (loopc < a) 
+	int cnt=0;
+	while (cnt < a) 
 	{ 
 		/* to find process which is unfinished
 		   and current work is greater than need */
@@ -64,7 +64,7 @@ int main() {
 						work[k]+=alloc[p][k]; 
 					}
 					
-					loopc++;
+					cnt++;
 					// Mark this process finished 
 					state[p] = 1; 
 					flag = 1;
