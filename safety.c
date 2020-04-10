@@ -68,11 +68,9 @@ int main() {
 					// Mark this process finished 
 					state[p] = 1; 
 					flag = 1;
-			
 				} 
 			} 
 		} 
-
 		// if we could not find a next process in safe sequence.
 		
 		if (flag == 0) 
